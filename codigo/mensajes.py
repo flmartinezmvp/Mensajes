@@ -182,7 +182,7 @@ def cargar_imagen_y_mensaje(archivo_excel, carpeta_imagenes, tiempo_cambio, carp
             try:
                 print(f"Se cargaría la imagen para el numero: {numero_telefono}")
                 print(f"Imagen: {ruta_imagen}")
-                print(f"Mensaje: 'Buen día, se envía notificación'")  # Puedes modificar el mensaje si es necesario
+                print(f"Mensaje: 'Duen día ( tarde) Sr(a) asociado(a) COEDUCADORES BOYACÁ adjunta NOTIFICACIÓN HABEAS DATA'")  # Puedes modificar el mensaje si es necesario
                 
                 # Cargar la imagen y el mensaje en WhatsApp Web, con un tiempo de espera para cargar
                 pywhatkit.sendwhats_image(numero_telefono, ruta_imagen, "Buen día, se envia notificación", 10)  # Tiempo de espera de 10 segundos

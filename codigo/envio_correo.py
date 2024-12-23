@@ -114,7 +114,7 @@ for i, fila in df.iterrows():
         msg = MIMEMultipart('related')
         msg['From'] = username
         msg['To'] = destinatario
-        msg['Subject'] = 'Notificación'
+        msg['Subject'] = 'NOTIFICACIÓN HABEAS DATA COEDUCADORES'
         
         cuerpo_mensaje = '''
         <html>
