@@ -60,7 +60,7 @@ def renombrar_archivos_en_carpeta(carpeta):
                 texto_limpio = re.sub(r'\s+', ' ', texto_limpio)  # Reemplazar múltiples espacios por uno solo
                 
                 # Buscar la palabra entre "Seńor(a) " y " Asociado"
-                palabra_antes = "Seńor(a) "
+                palabra_antes = "CC"
                 palabra_despues = " Asociado"
                 
                 # Buscar el nombre entre las dos palabras clave
