@@ -1,1 +1,0 @@
-python "C:\Mensajes\codigo\mensajes.py"
